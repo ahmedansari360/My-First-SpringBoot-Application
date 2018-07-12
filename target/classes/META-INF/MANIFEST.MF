@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Implementation-Title: myFirstApp
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: IVL-USER
+Implementation-Vendor-Id: com.ahmed
+Build-Jdk: 1.8.0_171
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/userProject
+Created-By: Maven Integration for Eclipse
+Main-Class: com.bt.collab.alu.api.webapp.Application
+
