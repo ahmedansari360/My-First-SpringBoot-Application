@@ -35,9 +35,7 @@ public class UserController {
 
 	@RequestMapping("/allPopulation")
 	public List<User> getAll() {
-		List<User> userList = new ArrayList<>();
-		userRepo.findAll().forEach(userList::add);
-		return userList;
+		return userRepo.findAll();
 	}
 
 	@RequestMapping(value = "/showUser/{id}", method = RequestMethod.GET, produces = "application/json")
@@ -49,6 +47,10 @@ public class UserController {
 	public String deleteUser(@PathVariable Integer id) {
 		userRepo.deleteById(id);
 		return "user deleted";
+	}
+	@RequestMapping("*")
+	public String fallBack() {
+		return "Bad Request";
 	}
 
 }

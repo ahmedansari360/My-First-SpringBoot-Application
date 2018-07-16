@@ -1,9 +1,9 @@
 Manifest-Version: 1.0
 Implementation-Title: myFirstApp
 Implementation-Version: 0.0.1-SNAPSHOT
-Built-By: IVL-USER
+Built-By: Working Machine
 Implementation-Vendor-Id: com.ahmed
-Build-Jdk: 1.8.0_171
+Build-Jdk: 1.8.0_162
 Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
  ot-starter-parent/userProject
 Created-By: Maven Integration for Eclipse
