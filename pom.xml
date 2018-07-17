@@ -31,6 +31,8 @@
 		<java.version>1.8</java.version>
 		<start-class>com.bt.collab.alu.api.webapp.Application</start-class>
 	</properties>
+
+	<packaging>war</packaging>
 	<build>
 		<plugins>
 			<plugin>
