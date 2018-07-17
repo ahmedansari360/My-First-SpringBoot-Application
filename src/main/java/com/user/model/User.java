@@ -1,4 +1,4 @@
-package com.ahmed.model;
+package com.user.model;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -8,7 +8,6 @@ import javax.validation.constraints.NotNull;
 
 @Entity
 public class User {
-
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	@NotNull
@@ -18,7 +17,6 @@ public class User {
 	private String password;
 
 	public User() {
-
 	}
 
 	public User(Integer id, String name, String username, String password) {
@@ -60,5 +58,4 @@ public class User {
 	public void setPassword(String password) {
 		this.password = password;
 	}
-
 }

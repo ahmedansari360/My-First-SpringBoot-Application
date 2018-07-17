@@ -1,9 +1,8 @@
-package com.ahmed;
+package com.user.interfaces;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
-
-import com.ahmed.model.User;
+import com.user.model.User;
 
 @Repository
 public interface UserRepository extends JpaRepository<User, Integer> {
