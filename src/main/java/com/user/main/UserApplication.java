@@ -1,4 +1,4 @@
-package com.user;
+package com.user.main;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
