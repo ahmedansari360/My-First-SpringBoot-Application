@@ -9,60 +9,60 @@ import javax.validation.constraints.NotNull;
 
 @Entity
 public class User {
-	@Id
-	@GeneratedValue(strategy = GenerationType.AUTO)
-	@NotNull
-	private Integer id;
-	
-	@NotBlank
-	private String name;
-	
-	@NotBlank
-	private String username;
-	
-	@NotBlank
-	private String password;
-	
-	public User() {
-	}
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
+    @NotNull
+    private Integer id;
 
-	public User(Integer id, String name, String username, String password) {
-		super();
-		this.id = id;
-		this.name = name;
-		this.username = username;
-		this.password = password;
-	}
+    @NotBlank
+    private String name;
 
-	public Integer getId() {
-		return id;
-	}
+    @NotBlank
+    private String username;
 
-	public void setId(Integer id) {
-		this.id = id;
-	}
+    @NotBlank
+    private String password;
 
-	public String getName() {
-		return name;
-	}
+    public User() {
+    }
 
-	public void setName(String name) {
-		this.name = name;
-	}
+    public User(Integer id, String name, String username, String password) {
+        super();
+        this.id = id;
+        this.name = name;
+        this.username = username;
+        this.password = password;
+    }
 
-	public String getUsername() {
-		return username;
-	}
+    public Integer getId() {
+        return id;
+    }
 
-	public void setUsername(String username) {
-		this.username = username;
-	}
+    public void setId(Integer id) {
+        this.id = id;
+    }
 
-	public String getPassword() {
-		return password;
-	}
+    public String getName() {
+        return name;
+    }
 
-	public void setPassword(String password) {
-		this.password = password;
-	}
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getUsername() {
+        return username;
+    }
+
+    public void setUsername(String username) {
+        this.username = username;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
 }
